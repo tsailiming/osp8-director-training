@@ -63,7 +63,6 @@ parameter_defaults:
   ## Ceph admin key, e.g. 'AQDLOh1VgEp6FRAAFzT7Zw+Y9V6JJExQAsRnRQ=='
   # CephAdminKey: ''
 
-parameter_defaults:
   ExtraConfig:
     ceph::profile::params::osds:
       '/dev/sdb': {}
